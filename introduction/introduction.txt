@@ -1,0 +1,11 @@
+This course is all about teaching Ruby, the language designed specifically for programmer happiness (yay!).
+
+The Path Ahead:
+- First section: To learn all about the basics of Ruby along with some classic programming basics.
+- Second section: To learn about object-oriented programming, which will show you how to cleanly and neatly
+organize your code into reusable objects.
+- Third section: To dive into some basic computer science, where you’ll learn about recursion and common data 
+structures.
+- Fourth section: To learn the basics of test-driven development.
+- Fifth section: To learn some more advanced features of Git and the Git workflow used by professional developers.
+- Sixth and final section: To tie everything together by building a fully-fledged chess game.

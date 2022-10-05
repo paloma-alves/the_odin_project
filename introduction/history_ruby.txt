@@ -1,0 +1,19 @@
+A Brief History of Ruby
+
+	Ruby was created by Yukihiro Matsumoto, or "Matz", in Japan in the mid 1990's. It was designed for programmer 
+productivity with the idea that programming should be fun for programmers.  It emphasizes the necessity for software to be 
+understood by humans first and computers second.
+	Initially, Matz looked at other languages to find an ideal syntax. Recalling his search, he said, “I wanted a 
+scripting language that was more powerful than Perl, and more object-oriented than Python2.”.In Ruby, everything is an object.
+Also, Ruby is a language of careful balance, Matz blended parts of his favorite languages (Perl, Smalltalk, Eiffel, Ada, and 
+Lisp)  to form a new language that balanced functional programming with imperative programming.
+	In programming and computer science in general, there is a concept called abstraction. Abstraction ensures that as users,
+ we are far removed from what's happening "under the hood". Programmers are offered a level of abstraction by making use of a 
+programming language like Ruby, which is written in C, which translates to Assembly language, which translates to machine
+language to language to translate 0s and 1s into something the computer understands. That means, every programming language is 
+based on other lower level layers of code that make it easy to use. Another level of abstraction is how Ruby programmers use the
+ Ruby programming language to design and build higher  level languages called Domain Specific Languages or DSL's like Rails and
+ Rspec. We do not necessarily need to know how these DSL's are implemented, but we know they exist and know how to use them.
+	Ruby continues to gain popularity for its use in web application development. The Ruby on Rails framework,built with the
+Ruby language by David Heinemeier Hansson, introduced many people to the joys of programming in Ruby. Ruby has a vibrant
+community that is supportive for beginners and enthusiastic about producing high-quality code.
