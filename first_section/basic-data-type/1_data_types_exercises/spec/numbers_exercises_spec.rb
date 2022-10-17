@@ -86,4 +86,74 @@ RSpec.describe 'Numbers Exercises' do
     end
 
   end
+
+  describe 'transform_negative exercise' do
+    it 'returns the negative of a number - part 1' do
+      expect(transform_negative(4)).to eq(-4)
+    end
+
+    it 'returns the negative of a number - part 2' do
+      expect(transform_negative(5)).to eq(-5)
+    end
+  end
+
+  describe 'transform_positive exercise' do
+    it 'returns the positive of a number - part 1' do
+      expect(transform_positive(-4)).to eq(4)
+    end
+
+    it 'returns the positive of a number - part 2' do
+      expect(transform_positive(-5)).to eq(5)
+    end
+  end
+
+  describe 'triple multiplication exercise' do
+    it 'returns the multiplication of 3 numers - part 1' do
+      expect(triple_multiplication(3,2,4)).to eq(24)
+    end
+
+    it 'returns the multiplication of 3 numers - part 2' do
+      expect(triple_multiplication(2,5,6)).to eq(60)
+    end
+  end
+
+  describe 'square exercise' do
+    it 'returns the square of a number - part 1 ' do
+      expect(square(3)).to eq(9)
+    end
+
+    it 'returns the square of a number - part 2  ' do
+      expect(square(4)).to eq(16)
+    end
+  end
+
+  describe 'square_perimeter exercise' do
+    it 'returns the area of polygn 4 equal sides - part 1' do
+      expect(square_perimeter(3)).to eq(12)
+    end
+
+    it 'returns the area of polygn 4 equal sides - part 2' do
+      expect(square_perimeter(5)).to eq(20)
+    end
+  end
+
+  describe 'rectangle_perimeter exercise' do
+    it 'returns the area of polygn 2 equal sides - part 1' do
+      expect(rectangle_perimeter(3, 4)).to eq(14)
+    end
+
+    it 'returns the area of polygn 2 equal sides - part 2' do
+      expect(rectangle_perimeter(5, 3)).to eq(16)
+    end
+  end
+
+  describe 'percentage exercise' do
+    it 'returns the percentage of a number - part 1' do
+      expect(percentage(1000, 250)).to eq(25)
+    end
+
+    it 'returns the percentage of a number - part 2' do
+      expect(percentage(50, 30)).to eq(60)
+    end
+  end
 end
