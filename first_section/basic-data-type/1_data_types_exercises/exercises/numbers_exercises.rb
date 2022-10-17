@@ -41,3 +41,31 @@ def odd?(number)
   return number.odd?
   # return true if the number is odd (hint: use integer's odd? method)
 end
+
+def transform_negative (number)
+  return -1 * (number)
+end
+
+def transform_positive (number)
+  return -1 * (number)
+end
+
+def triple_multiplication (a, b, c)
+  return a * b * c
+end
+
+def square (number)
+ return (number) ** 2 
+end
+
+def square_perimeter (number)
+  return 4 * (number)
+end
+
+def rectangle_perimeter (a, b)
+  return  (a * 2) + (b * 2)
+end
+
+def percentage (a, b)
+  return (b * 100) / a 
+end
