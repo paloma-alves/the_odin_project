@@ -109,4 +109,74 @@ RSpec.describe 'String Exercises' do
       expect(space_remover('many white spaces')).to eq('manywhitespaces')
     end
   end
+
+  describe 'replace character exercise' do
+    it 'replace underscore per space' do
+      expect(replace_character('white_space', '_',' ' )).to eq('white space')
+    end
+
+    it 'replace space per underscore' do
+      expect(replace_character('White space', ' ','_' )).to eq('White_space')
+    end
+  end
+
+  describe 'upcase vowels exercise' do
+    xit 'upcase only vowels 1' do
+      expect(upcase_vowels('aeiouzxcvb')).to eq('AEIOUzxcvb')
+    end
+
+    xit 'upcase only vowels 2' do
+      expect(upcase_vowels('nani')).to eq('nAnI')
+    end
+  end
+
+  describe 'remove first character' do
+    xit 'remove first character 1' do
+      expect(remove_first('first')).to eq('irst')
+    end
+
+    xit 'remove first character 2' do
+      expect(remove_first('one')).to eq('ne')
+    end
+  end
+
+  describe 'remove last character' do
+    xit 'remove last character 1' do
+      expect(remove_last('last')).to eq('las')
+    end
+
+    xit 'remove last character 2' do
+      expect(remove_last('ten')).to eq('te')
+    end
+  end
+
+  describe 'remove first and last characters' do
+    xit 'remove first and last characters 1' do
+      expect(remove_first_last('one')).to eq('n')
+    end
+
+    xit 'remove first and last characters 2' do
+      expect(remove_first_last('nani')).to eq('an')
+    end
+  end
+
+  describe 'adds extra chars at the beginning and at the end' do
+    xit 'adds extra chars at the beginning and at the end 1' do
+      expect(adds_extra_chars('value', '[', ']')).to eq('[value]')
+    end
+
+    xit 'adds extra chars at the beginning and at the end 2' do
+      expect(adds_extra_chars('omaeu', '(', ']')).to eq('(omaeu]')
+    end
+  end
+
+  describe 'returns the first and the last char' do
+    xit 'extreme chars 1' do
+      expect(extreme_chars('morning')).to eq('mg')
+    end
+
+    xit 'extreme chars 2' do
+      expect(extreme_chars('night')).to eq('nt')
+    end
+  end
 end
