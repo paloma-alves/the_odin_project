@@ -121,11 +121,11 @@ RSpec.describe 'String Exercises' do
   end
 
   describe 'upcase vowels exercise' do
-    xit 'upcase only vowels 1' do
+    it 'upcase only vowels 1' do
       expect(upcase_vowels('aeiouzxcvb')).to eq('AEIOUzxcvb')
     end
 
-    xit 'upcase only vowels 2' do
+    it 'upcase only vowels 2' do
       expect(upcase_vowels('nani')).to eq('nAnI')
     end
   end

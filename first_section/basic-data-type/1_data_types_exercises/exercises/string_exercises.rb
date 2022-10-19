@@ -47,3 +47,7 @@ def space_remover(string)
   return string.gsub(/[[:space:]]/, '') 
   # remove all the spaces in the string using gsub
 end
+
+def upcase_vowels (string)
+  return string.gsub(/[A-z]/) { |char| char.next }.tr('aeiou', 'AEIOU')
+end
