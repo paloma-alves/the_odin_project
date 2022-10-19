@@ -48,6 +48,26 @@ def space_remover(string)
   # remove all the spaces in the string using gsub
 end
 
-def upcase_vowels (string)
-  return string.gsub(/[A-z]/) { |char| char.next }.tr('aeiou', 'AEIOU')
+def upcase_vowels(string)
+  return string.tr('aeiou', 'AEIOU')
+end
+
+def remove_first(string)
+  return string[1..-1]
+end
+
+def remove_last(string)
+  return string[0..-2]
+end
+
+def remove_first_last(string)
+  return string[1..-2]
+end
+
+def adds_extra_chars(a, b, c)
+  return b << a << c
+end
+
+def extreme_chars(string)
+  return string[0] + string[-1]
 end

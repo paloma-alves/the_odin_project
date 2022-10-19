@@ -131,51 +131,51 @@ RSpec.describe 'String Exercises' do
   end
 
   describe 'remove first character' do
-    xit 'remove first character 1' do
+    it 'remove first character 1' do
       expect(remove_first('first')).to eq('irst')
     end
 
-    xit 'remove first character 2' do
+    it 'remove first character 2' do
       expect(remove_first('one')).to eq('ne')
     end
   end
 
   describe 'remove last character' do
-    xit 'remove last character 1' do
+    it 'remove last character 1' do
       expect(remove_last('last')).to eq('las')
     end
 
-    xit 'remove last character 2' do
+    it 'remove last character 2' do
       expect(remove_last('ten')).to eq('te')
     end
   end
 
   describe 'remove first and last characters' do
-    xit 'remove first and last characters 1' do
+    it 'remove first and last characters 1' do
       expect(remove_first_last('one')).to eq('n')
     end
 
-    xit 'remove first and last characters 2' do
+    it 'remove first and last characters 2' do
       expect(remove_first_last('nani')).to eq('an')
     end
   end
 
   describe 'adds extra chars at the beginning and at the end' do
-    xit 'adds extra chars at the beginning and at the end 1' do
+    it 'adds extra chars at the beginning and at the end 1' do
       expect(adds_extra_chars('value', '[', ']')).to eq('[value]')
     end
 
-    xit 'adds extra chars at the beginning and at the end 2' do
+    it 'adds extra chars at the beginning and at the end 2' do
       expect(adds_extra_chars('omaeu', '(', ']')).to eq('(omaeu]')
     end
   end
 
   describe 'returns the first and the last char' do
-    xit 'extreme chars 1' do
+    it 'extreme chars 1' do
       expect(extreme_chars('morning')).to eq('mg')
     end
 
-    xit 'extreme chars 2' do
+    it 'extreme chars 2' do
       expect(extreme_chars('night')).to eq('nt')
     end
   end
