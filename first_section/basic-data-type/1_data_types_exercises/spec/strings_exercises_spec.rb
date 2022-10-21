@@ -131,7 +131,7 @@ RSpec.describe 'String Exercises' do
   end
 
   describe 'remove first character' do
-    it 'remove first character 1' do
+    gitit 'remove first character 1' do
       expect(remove_first('first')).to eq('irst')
     end
 
