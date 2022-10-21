@@ -13,11 +13,11 @@ RSpec.describe 'String Exercises 2' do
   end
 
   describe 'character quantity count' do
-    xit 'returns character quantity count 1' do
+    it 'returns character quantity count 1' do
       expect(character_quantity_count('Ruby')).to eq('4 Ruby')
     end
 
-    xit 'returns character quantity count 2' do
+    it 'returns character quantity count 2' do
       expect(character_quantity_count('Omaeu')).to eq('5 Omaeu')
     end
   end

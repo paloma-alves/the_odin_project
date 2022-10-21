@@ -71,3 +71,26 @@ end
 def extreme_chars(string)
   return string[0] + string[-1]
 end
+
+def character_quantity_count(string)
+  string.size + string
+end
+
+def mirrored_strings(a, b)
+ #primeiro eu vou concatenar a + b para formar ruby word
+ space = ' '
+ first_mirror = a + space + b 
+ #agora eu vou concatenar b + a word ruby
+ second_mirror = b + space + a
+ #agora eu vou adicionar o traco
+  first_mirror << ' - ' << second_mirror 
+end
+
+def character_quantity_count(word)
+  #achar a quantidade de letras
+ number = word.length.to_s
+ #espaco
+ space = ' '
+
+ number + space + word
+end
