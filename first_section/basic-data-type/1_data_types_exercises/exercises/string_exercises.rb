@@ -103,14 +103,40 @@ def second_string(string) #35
   string.split.last
 end
 
+def invert_order(string)
+  a = string.split.first
+  b = string.split.last
+  c =  ' '
+
+  b + c + a
+end
+
+def first_char_twice(string) #65
+  a = string.split.first
+  a[0]
+
+  b = string.split.last
+  b[0]
+
+  a[0] + b[0]
+end
+
+def first_char_twice_inverted(string) #75
+  a = string.split.first
+  a[0]
+
+  b = string.split.last
+  b[0]
+
+  b[0] + a[0]
+end
+
 def single_replace(string) #85
   string.gsub("_", " ")
 end
 
-def double_replace(string1, string2, string3)
-  string1.gsub("_", "-")
-  string2.delete "_"
-  string3.delete "-"
+def custom_replace(string1,b,c) 
+  a = string1.gsub(b, c) #95 
 end
 
 def double_replace(string) #105

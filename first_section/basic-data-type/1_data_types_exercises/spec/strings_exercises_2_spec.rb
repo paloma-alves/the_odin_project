@@ -53,31 +53,31 @@ RSpec.describe 'String Exercises 2' do
   end
 
   describe 'invert order' do
-    xit 'returns inverted order 1' do
+    it 'returns inverted order 1' do
       expect(invert_order('My Ruby')).to eq('Ruby My')
     end
 
-    xit 'returns inverted order 2' do
+    it 'returns inverted order 2' do
       expect(invert_order('Nani Omaeu')).to eq('Omaeu Nani')
     end
   end
 
   describe 'first_char_twice' do
-    xit 'returns first_char_twice 1' do
+    it 'returns first_char_twice 1' do
       expect(first_char_twice('My Ruby')).to eq('MR')
     end
 
-    xit 'returns first_char_twice 2' do
+    it 'returns first_char_twice 2' do
       expect(first_char_twice('Nani Omaeu')).to eq('NO')
     end
   end
 
   describe 'first_char_twice_inverted' do
-    xit 'returns first_char_twice_inverted 1' do
+    it 'returns first_char_twice_inverted 1' do
       expect(first_char_twice_inverted('My Ruby')).to eq('RM')
     end
 
-    xit 'returns first_char_twice_inverted 2' do
+    it 'returns first_char_twice_inverted 2' do
       expect(first_char_twice_inverted('Nani Omaeu')).to eq('ON')
     end
   end
@@ -93,12 +93,16 @@ RSpec.describe 'String Exercises 2' do
   end
 
   describe 'custom_replace' do
-    xit 'returns custom_replace 1' do
+    it 'returns custom_replace 1' do
       expect(custom_replace('My_Perfect_Ruby', '_', '-')).to eq('My-Perfect-Ruby')
     end
 
-    xit 'returns custom_replace 2' do
+    it 'returns custom_replace 2' do
       expect(custom_replace('My-Perfect-Ruby', '-', '_')).to eq('My_Perfect_Ruby')
+    end
+
+    it 'returns custom_replace 3' do
+      expect(custom_replace('My!Perfect!Ruby', '!', 'X')).to eq('MyXPerfectXRuby')
     end
   end
 
