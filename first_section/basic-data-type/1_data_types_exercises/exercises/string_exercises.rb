@@ -76,7 +76,7 @@ def character_quantity_count(string)
   string.size + string
 end
 
-def mirrored_strings(a, b)
+def mirrored_strings(a, b) #5
  #primeiro eu vou concatenar a + b para formar ruby word
  space = ' '
  first_mirror = a + space + b 
@@ -86,7 +86,7 @@ def mirrored_strings(a, b)
   first_mirror << ' - ' << second_mirror 
 end
 
-def character_quantity_count(word)
+def character_quantity_count(word) #15
   #achar a quantidade de letras
  number = word.length.to_s
  #espaco
@@ -94,3 +94,28 @@ def character_quantity_count(word)
 
  number + space + word
 end
+
+def first_string (string) #25
+  string.split.first
+end
+
+def second_string(string) #35
+  string.split.last
+end
+
+def single_replace(string) #85
+  string.gsub("_", " ")
+end
+
+def double_replace(string1, string2, string3)
+  string1.gsub("_", "-")
+  string2.delete "_"
+  string3.delete "-"
+end
+
+def double_replace(string) #105
+ a = string.gsub("_", " ") 
+ a.gsub("-", " ")
+end
+
+
