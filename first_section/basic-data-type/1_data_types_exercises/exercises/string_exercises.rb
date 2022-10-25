@@ -103,7 +103,17 @@ def second_string(string) #35
   string.split.last
 end
 
-def invert_order(string)
+def n_string(string1, number) 
+  #string1 = My Perfect Ruby
+  #number = 2
+
+  string1.split(' ')
+  words =  string1.split(' ')
+  words[number -1]
+  
+end
+
+def invert_order(string) #55
   a = string.split.first
   b = string.split.last
   c =  ' '

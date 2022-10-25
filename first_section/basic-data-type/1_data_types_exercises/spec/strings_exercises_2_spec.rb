@@ -43,11 +43,11 @@ RSpec.describe 'String Exercises 2' do
   end
 
   describe 'n_string' do
-    xit 'returns n_string 1' do
+    it 'returns n_string 1' do
       expect(n_string('My Perfect Ruby', 2)).to eq('Perfect')
     end
 
-    xit 'returns n_string 2' do
+    it 'returns n_string 2' do
       expect(n_string('Nani Omaeu Shinderiu', 3)).to eq('Shinderiu')
     end
   end
