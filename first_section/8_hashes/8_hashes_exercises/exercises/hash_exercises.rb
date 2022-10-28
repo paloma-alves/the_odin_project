@@ -1,14 +1,47 @@
+def create_empty_hash(hash)
+  hash = {}
+end
+
+
+
+
+
+
+
 def create_favorite_hash(color, number)
+  color_key = { 
+    :color => color
+  }
+
+  number_key = {
+    :number => number
+  }
+
+favorite_list = color_key.merge(number_key)
   # return a hash with the following key/value pairs:
   # key of color (as a symbol) with value of the color argument
   # key of number (as a symbol) with the value of the number argument
 end
 
 def favorite_color(favorite_list)
+  color_key = { 
+    :color => blue
+  }
+
+  number_key = {
+    :number => 65
+  }
+
+  favorite_list = color_key.merge(number_key)
+
+  favorite_list.fetch("color_key")
   # return the value of the color key
 end
 
 def favorite_number(favorite_list)
+  
+
+
   # use #fetch to return the value of the number key or 42 if the key is not found
 end
 
