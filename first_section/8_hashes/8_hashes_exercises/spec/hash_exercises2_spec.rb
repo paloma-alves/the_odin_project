@@ -77,7 +77,7 @@ RSpec.describe 'Hash Exercises2' do
   describe 'create_hash_from_string_inverse_uppercase exercise' do
     it 'returns inverted hash' do
       result = {"OMAEU" => "NANI"}
-      expect(create_hash_from_string_inverse("nani omaeu")).to eq(result)
+      expect(create_hash_from_string_inverse_uppercase("nani omaeu")).to eq(result)
     end
   end
 end

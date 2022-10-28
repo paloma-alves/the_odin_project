@@ -59,6 +59,14 @@ def create_hash_from_string_inverse(string)
   return hash = { a[1] => a[0] }
 end
 
+def create_hash_from_string_inverse_uppercase(string)
+  a = string.split
+ 
+ return hash = { 
+  a[1].upcase => a[0].upcase
+  }
+end
+
 
 
 #def create_favorite_hash(color, number)
