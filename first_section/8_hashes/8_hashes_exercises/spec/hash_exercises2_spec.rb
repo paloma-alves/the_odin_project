@@ -17,28 +17,28 @@ RSpec.describe 'Hash Exercises2' do
   end
 
   describe 'create_hash_with_1_key_1_value exercise' do
-    xit 'returns hash with 1 key and 1 value' do
+    it 'returns hash with 1 key and 1 value' do
       result = {"place" => "home"}
       expect(create_hash_with_1_key_1_value("place", "home")).to eq(result)
     end
   end
 
   describe 'create_hash_with_same_key_and_value exercise' do
-    xit 'returns hash with same key and value' do
+    it 'returns hash with same key and value' do
       result = {"nani" => "nani"}
       expect(create_hash_with_same_key_and_value("nani")).to eq(result)
     end
   end
 
   describe 'create_hash_with_same_key_and_value_uppercase exercise' do
-    xit 'returns hash with same key and value uppercase' do
+    it 'returns hash with same key and value uppercase' do
       result = {"pokemon" => "POKEMON"}
       expect(create_hash_with_same_key_and_value_uppercase("pokemon")).to eq(result)
     end
   end
 
   describe 'update_value_by_key exercise' do
-    xit 'returns hash updated key' do
+    it 'returns hash updated key' do
       hash = {
         "pokemon" => "pikachu"
       }
@@ -48,7 +48,7 @@ RSpec.describe 'Hash Exercises2' do
   end
 
   describe 'add_new_value_to_hash exercise' do
-    xit 'returns hash updated key' do
+    it 'returns hash updated key' do
       hash = {
         "city" => "Fortaleza"
       }
@@ -61,21 +61,21 @@ RSpec.describe 'Hash Exercises2' do
   end
 
   describe 'create_hash_from_string exercise' do
-    xit 'returns hash' do
+    it 'returns hash' do
       result = {"nani" => "omaeu"}
       expect(create_hash_from_string("nani omaeu")).to eq(result)
     end
   end
 
   describe 'create_hash_from_string_inverse exercise' do
-    xit 'returns inverted hash' do
+    it 'returns inverted hash' do
       result = {"omaeu" => "nani"}
       expect(create_hash_from_string_inverse("nani omaeu")).to eq(result)
     end
   end
 
   describe 'create_hash_from_string_inverse_uppercase exercise' do
-    xit 'returns inverted hash' do
+    it 'returns inverted hash' do
       result = {"OMAEU" => "NANI"}
       expect(create_hash_from_string_inverse("nani omaeu")).to eq(result)
     end

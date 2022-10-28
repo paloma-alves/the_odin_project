@@ -1,22 +1,63 @@
 def create_empty_hash
-  hash = {}
+  return hash = {}
 end
 
-def create_hash_with_1_key
+def create_hash_with_1_key(string)
   hash = {
-    "country" => " "
+    string => nil
   }
-  puts hash
+  return hash
 end
   
-def create_hash_with_1_key_1_value
+def create_hash_with_1_key_1_value(string1, string2)
 hash = {
-  "place" => "home"
+  string1 => string2
 }
-puts hash
+return hash
+end
+
+def create_hash_with_same_key_and_value(string)
+  hash = {
+    string => string
+  }
+return hash
 end
 
 
+def create_hash_with_same_key_and_value_uppercase(string)
+  hash = {
+    string => string.upcase
+  }
+return hash
+end
+
+
+def update_value_by_key(hash, string1, string2)
+  hash[string1] = string2
+  return hash
+end 
+
+def add_new_value_to_hash(hash, string1, string2)
+  hash[string1] = string2
+  return hash
+end
+
+def create_hash_from_string(string)
+  a = string.split
+  a[0]
+  a[1]
+
+  return hash = { a[0] => a[1] }
+end
+
+def create_hash_from_string_inverse(string)
+  a = string.split
+  
+  a[0]
+  a[1]
+
+  return hash = { a[1] => a[0] }
+end
 
 
 
