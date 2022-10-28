@@ -10,7 +10,7 @@ RSpec.describe 'Hash Exercises2' do
   end
 
   describe 'create_hash_with_1_key exercise' do
-    xit 'returns hash with 1 key' do
+    it 'returns hash with 1 key' do
       result = {"country" => nil}
       expect(create_hash_with_1_key("country")).to eq(result)
     end
