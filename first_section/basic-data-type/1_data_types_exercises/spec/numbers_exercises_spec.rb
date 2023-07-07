@@ -2,7 +2,6 @@ require 'spec_helper'
 require_relative '../exercises/numbers_exercises'
 
 RSpec.describe 'Numbers Exercises' do
-
   describe 'addition exercise' do
 
     it 'adds two numbers' do
