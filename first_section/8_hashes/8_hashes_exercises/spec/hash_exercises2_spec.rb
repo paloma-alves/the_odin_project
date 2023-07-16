@@ -1,5 +1,5 @@
 require 'spec_helper'
-require_relative '../exercises/'
+require_relative '../exercises/hash_exercises'
 
 RSpec.describe 'Hash Exercises2' do
   describe 'create_empty_hash exercise' do
@@ -78,7 +78,6 @@ RSpec.describe 'Hash Exercises2' do
     it 'returns inverted hash' do
       result = {"OMAEU" => "NANI"}
       expect(create_hash_from_string_inverse_uppercase("nani omaeu")).to eq(result)
-    endhash_exercises
     end
   end
 end
