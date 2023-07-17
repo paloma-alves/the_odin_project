@@ -77,7 +77,7 @@ def add_new_value_to_hash(hash, string1, string2)
   return hash
 end
 
-def create_hash_from_string(string) #nao entendi o que houve aqui
+def create_hash_from_string(string) 
   s1 = string.split[0]
   s2 = string.split[1]
   hash = {s1 => s2}
